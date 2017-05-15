@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F1AAB4261ECA1CEA00BFA69F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB4251ECA1CEA00BFA69F /* AppDelegate.swift */; };
-		F1AAB4281ECA1CEA00BFA69F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB4271ECA1CEA00BFA69F /* ViewController.swift */; };
+		F1AAB4281ECA1CEA00BFA69F /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB4271ECA1CEA00BFA69F /* BucketListViewController.swift */; };
 		F1AAB42B1ECA1CEA00BFA69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB4291ECA1CEA00BFA69F /* Main.storyboard */; };
 		F1AAB42D1ECA1CEA00BFA69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB42C1ECA1CEA00BFA69F /* Assets.xcassets */; };
 		F1AAB4301ECA1CEA00BFA69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB42E1ECA1CEA00BFA69F /* LaunchScreen.storyboard */; };
+		F1AAB4381ECA22D200BFA69F /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB4371ECA22D200BFA69F /* AddItemViewController.swift */; };
+		F1AAB43A1ECA278500BFA69F /* AddDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB4391ECA278500BFA69F /* AddDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1AAB4221ECA1CEA00BFA69F /* table_view_lecture_may_15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = table_view_lecture_may_15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AAB4251ECA1CEA00BFA69F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1AAB4271ECA1CEA00BFA69F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1AAB4271ECA1CEA00BFA69F /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		F1AAB42A1ECA1CEA00BFA69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1AAB42C1ECA1CEA00BFA69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1AAB42F1ECA1CEA00BFA69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1AAB4311ECA1CEA00BFA69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AAB4371ECA22D200BFA69F /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		F1AAB4391ECA278500BFA69F /* AddDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F1AAB4251ECA1CEA00BFA69F /* AppDelegate.swift */,
-				F1AAB4271ECA1CEA00BFA69F /* ViewController.swift */,
+				F1AAB4271ECA1CEA00BFA69F /* BucketListViewController.swift */,
+				F1AAB4371ECA22D200BFA69F /* AddItemViewController.swift */,
 				F1AAB4291ECA1CEA00BFA69F /* Main.storyboard */,
 				F1AAB42C1ECA1CEA00BFA69F /* Assets.xcassets */,
 				F1AAB42E1ECA1CEA00BFA69F /* LaunchScreen.storyboard */,
 				F1AAB4311ECA1CEA00BFA69F /* Info.plist */,
+				F1AAB4391ECA278500BFA69F /* AddDelegate.swift */,
 			);
 			path = table_view_lecture_may_15;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1AAB4281ECA1CEA00BFA69F /* ViewController.swift in Sources */,
+				F1AAB43A1ECA278500BFA69F /* AddDelegate.swift in Sources */,
+				F1AAB4281ECA1CEA00BFA69F /* BucketListViewController.swift in Sources */,
 				F1AAB4261ECA1CEA00BFA69F /* AppDelegate.swift in Sources */,
+				F1AAB4381ECA22D200BFA69F /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				F1AAB4361ECA1CEA00BFA69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
